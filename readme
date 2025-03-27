@@ -1,0 +1,13 @@
+├── README.md
+├── LICENSE
+├── backend/
+│   ├── server/
+│   │   ├── index.ts
+│   │   ├── routes.ts
+│   │   ├── storage.ts
+│   │   └── vite.ts
+│   ├── shared/
+│   │   └── schema.ts
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
