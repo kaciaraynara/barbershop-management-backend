@@ -60,9 +60,3 @@ Este é o backend para o Sistema de Gerenciamento de Barbearia, construído com 
 ### Dashboard
 - `GET /api/dashboard` - Obter dados para o dashboard
 
-## Desenvolvimento
-
-```bash
-# Instale as dependências
-npm install
-
