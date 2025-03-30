@@ -1,0 +1,70 @@
+
+### README.md do Backend
+
+```markdown
+# Backend - Sistema de Gerenciamento de Barbearia
+
+Este é o backend para o Sistema de Gerenciamento de Barbearia, construído com Node.js, Express e TypeScript.
+
+## Estrutura de Arquivos
+
+- `/server/index.ts` - Ponto de entrada do servidor Express
+- `/server/routes.ts` - Definição das rotas da API
+- `/server/storage.ts` - Implementação do armazenamento de dados
+- `/shared/schema.ts` - Esquemas e tipos compartilhados com o frontend
+
+## API Endpoints
+
+### Barbeiros
+- `GET /api/barbers` - Listar todos os barbeiros
+- `GET /api/barbers/:id` - Obter um barbeiro específico
+- `POST /api/barbers` - Criar um novo barbeiro
+- `PATCH /api/barbers/:id` - Atualizar um barbeiro
+- `DELETE /api/barbers/:id` - Remover um barbeiro
+
+### Serviços
+- `GET /api/services` - Listar todos os serviços
+- `GET /api/services/:id` - Obter um serviço específico
+- `POST /api/services` - Criar um novo serviço
+- `PATCH /api/services/:id` - Atualizar um serviço
+- `DELETE /api/services/:id` - Remover um serviço
+
+### Clientes
+- `GET /api/clients` - Listar todos os clientes
+- `GET /api/clients/:id` - Obter um cliente específico
+- `POST /api/clients` - Criar um novo cliente
+- `PATCH /api/clients/:id` - Atualizar um cliente
+- `DELETE /api/clients/:id` - Remover um cliente
+
+### Agendamentos
+- `GET /api/appointments` - Listar todos os agendamentos
+- `GET /api/appointments/:id` - Obter um agendamento específico
+- `POST /api/appointments` - Criar um novo agendamento
+- `PATCH /api/appointments/:id` - Atualizar um agendamento
+- `DELETE /api/appointments/:id` - Remover um agendamento
+
+### Produtos
+- `GET /api/products` - Listar todos os produtos
+- `GET /api/products/:id` - Obter um produto específico
+- `POST /api/products` - Criar um novo produto
+- `PATCH /api/products/:id` - Atualizar um produto
+- `DELETE /api/products/:id` - Remover um produto
+
+### Vendas
+- `GET /api/sales` - Listar todas as vendas
+- `GET /api/sales/:id` - Obter uma venda específica
+- `POST /api/sales` - Criar uma nova venda
+- `PATCH /api/sales/:id` - Atualizar uma venda
+- `DELETE /api/sales/:id` - Remover uma venda
+
+### Dashboard
+- `GET /api/dashboard` - Obter dados para o dashboard
+
+## Desenvolvimento
+
+```bash
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
