@@ -66,5 +66,3 @@ Este é o backend para o Sistema de Gerenciamento de Barbearia, construído com 
 # Instale as dependências
 npm install
 
-# Inicie o servidor de desenvolvimento
-npm run dev
